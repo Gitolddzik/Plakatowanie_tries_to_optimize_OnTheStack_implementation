@@ -49,8 +49,7 @@ int find_result(int* wys, int n)
 				}
 				result++;    
 	    	}
-	    	
-	    	//if (stairs==true)
+	 
   
 	}
 			    
