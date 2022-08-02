@@ -2,24 +2,6 @@
 #include <stdbool.h>
 #include <stdlib.h>
 
-//zrób przedziały wykrywania schodów czyli if(wys[i]>=wys[i-1]&&upstairs!=true)
-//short int up++; //najpierw a potem to usune zobaczymy
-//else
-//{
-//up=0;
-//}
-//if(upstairs==255)
-//{upstarirs==true;
-//up=0;
-//}
-//if(upstairs==true)
-//objects[i].value=wys[i]
-
-// i tak samo z downstairs a reszta tablicy to 0; 
-
-//potem porownywanie z telefonu upstairs i downstairs i gotowe
-
-
 struct str
 {
     int value;
@@ -89,7 +71,7 @@ int main(int argc, char** argv)
       
 	    for(int i=1;i<n+1;i++)
 		{      	
-			scanf("%d %d\n", &objects[i].value , &objects[i].value); //szerokosc jest kompletnie nie potrzebna, daltego nie tworzyłem nawet zmiennej dla niej, zostaje nadpisana  za każdym razem.
+			scanf("%d %d\n", &objects[i].value , &objects[i].value); 
 			wys[i]=objects[i].value;
 		}
 		
